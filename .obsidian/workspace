@@ -100,7 +100,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -141,14 +142,6 @@
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "e30e260cae00b72c",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
               "state": {}
             }
           }
@@ -231,7 +224,7 @@
     "direction": "horizontal",
     "width": 267.09344482421875
   },
-  "active": "c3428b55bd500012",
+  "active": "05600aec1345956c",
   "lastOpenFiles": [
     "002 Research ⚗️/Unorganized Notes/Game Notes 🃏.md",
     "000 Master Mind Hub 🌌/Eisenhower Matrix 🌐.md",
