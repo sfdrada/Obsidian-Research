@@ -1,0 +1,247 @@
+{
+  "main": {
+    "id": "fdcb3fdcbc3658be",
+    "type": "split",
+    "children": [
+      {
+        "id": "c3428b55bd500012",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "000 Master Mind Hub 🌌/Eisenhower Matrix 🌐.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "d49a3222c59f52f6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "002 Research ⚗️/Unorganized Notes/Game Notes 🃏.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "a52281ed545d1137",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "000 Master Mind Hub 🌌/Sketch Catch 💭.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e407f6420580e4c7",
+    "type": "split",
+    "children": [
+      {
+        "id": "cdcf16c67744a00c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8b5bcccfbf5bfa7c",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "05600aec1345956c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "83c7dd69718bab0b",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "1c7a8a037fd72976",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "constructivism",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d1be898435813811",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 311.0078125
+  },
+  "right": {
+    "id": "a71144b72d44bd15",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b7711f5de9eaa15",
+        "type": "tabs",
+        "dimension": 77.34241908006814,
+        "children": [
+          {
+            "id": "a9eace4fd2ff7e74",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "002 Research ⚗️/Unorganized Notes/Game Notes 🃏.md"
+              }
+            }
+          },
+          {
+            "id": "14b7b43f6dc200cd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "87e01dc8fa260c20",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "e30e260cae00b72c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "318c86a8193744b9",
+        "type": "tabs",
+        "dimension": 22.657580919931853,
+        "children": [
+          {
+            "id": "aaa1d7a677226f95",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          },
+          {
+            "id": "d6a20161b520adfa",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "002 Research ⚗️/Unorganized Notes/Game Notes 🃏.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 2,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": true,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": false,
+                  "colorGroups": [
+                    {
+                      "query": "tag:#Projects",
+                      "color": {
+                        "a": 1,
+                        "rgb": 6938706
+                      }
+                    },
+                    {
+                      "query": "tag:#Master_Mind",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14437452
+                      }
+                    },
+                    {
+                      "query": "path:Journals",
+                      "color": {
+                        "a": 1,
+                        "rgb": 5425632
+                      }
+                    }
+                  ],
+                  "collapse-display": false,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1.00089686098655,
+                  "lineSizeMultiplier": 3.96892330520263,
+                  "collapse-forces": false,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 12.9951662687089,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.1316872427983564,
+                  "close": true
+                }
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 267.09344482421875
+  },
+  "active": "d49a3222c59f52f6",
+  "lastOpenFiles": [
+    "000 Master Mind Hub 🌌/Eisenhower Matrix 🌐.md",
+    "001 Projects 🎯/Current/The Rational Male - A Player's Handbook 📗.md",
+    "001 Projects 🎯/Current/Social Constructivism.md",
+    "001 Projects 🎯/Current/Social Constructionism.md",
+    "002 Research ⚗️/Unorganized Notes/Game Notes 🃏.md",
+    "000 Master Mind Hub 🌌/Sketch Catch 💭.md",
+    "002 Research ⚗️/Concepts 🧠/Lame.md",
+    "002 Research ⚗️/Concepts 🧠/Square.md",
+    "002 Research ⚗️/Concepts 🧠/Player.md",
+    "002 Research ⚗️/Concepts 🧠/Pimp.md"
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "choices": [
+    {
+      "id": "c73c19fa-bc77-461c-a2a9-0b0fc4d43856",
+      "name": "Monthly Macro",
+      "type": "Macro",
+      "command": true,
+      "macroId": "655aabbf-0be9-4d75-9d20-d146ea57e32e"
+    },
+    {
+      "id": "6494ac22-0982-4608-b7de-6f8a2f9a8bb6",
+      "name": "Quarterly Macro",
+      "type": "Macro",
+      "command": true,
+      "macroId": "4b1c1a98-6bda-4a46-8c35-43d0c25af77e"
+    },
+    {
+      "id": "43d2676a-2bd2-4d63-8e61-efd61682ab35",
+      "name": "Yearly Macro",
+      "type": "Macro",
+      "command": true,
+      "macroId": "e3e73b11-15bf-41e0-963c-d0cc1269202c"
+    },
+    {
+      "id": "9b278cf4-0af5-42f7-b936-02386b3bce47",
+      "name": "Website Macro",
+      "type": "Macro",
+      "command": true,
+      "macroId": "3c90f0a5-90cd-4c7d-a258-d86d318da074"
+    },
+    {
+      "id": "a48dee97-6ca3-4f1d-a4b5-2450b34daab7",
+      "name": "Project Macro",
+      "type": "Macro",
+      "command": true,
+      "macroId": "da34c773-5da8-434c-a312-f68d89ff47b7"
+    },
+    {
+      "id": "96fed264-3e3c-4923-a887-6bc970daf64a",
+      "name": "Book Macro",
+      "type": "Macro",
+      "command": true,
+      "macroId": "03f8bf0a-f024-4604-89cb-1fbc11f36d6c"
+    },
+    {
+      "id": "4b6d6952-5cf0-4f71-bc91-b446659eeae7",
+      "name": "Course Macro",
+      "type": "Macro",
+      "command": true,
+      "macroId": "7c23b0ec-17ab-48ee-8222-09df850a4c64"
+    },
+    {
+      "id": "dac8ca57-31c6-4aad-be5b-41603cd375d1",
+      "name": "Daily Macro",
+      "type": "Macro",
+      "command": true,
+      "macroId": "ab855de4-5490-4b39-8085-15eb6a84a2c5"
+    },
+    {
+      "id": "a5fdd342-5bdc-46fc-9367-8f5cc5c46284",
+      "name": "Weekly Macro",
+      "type": "Macro",
+      "command": true,
+      "macroId": "b80a8648-c7bd-4b78-9e63-8e86de679752"
+    },
+    {
+      "id": "0ecfc61a-68bf-4033-a5a4-b73e9fea1507",
+      "name": "Habit Automation",
+      "type": "Macro",
+      "command": true,
+      "macroId": "f8ab00cd-b648-406d-97d8-b4fb8c5f3454"
+    },
+    {
+      "id": "25f52e00-0c2f-40ba-b318-bb9dd7182094",
+      "name": "Ctrl + X Automation",
+      "type": "Macro",
+      "command": true,
+      "macroId": "4907f125-0c71-4727-b1c9-19d7fc3afacb"
+    }
+  ],
+  "macros": [
+    {
+      "name": "Project Gen",
+      "id": "da34c773-5da8-434c-a312-f68d89ff47b7",
+      "commands": [
+        {
+          "name": "New Project",
+          "type": "NestedChoice",
+          "id": "0287c057-83c0-49cc-a51a-b3c2ff087182",
+          "choice": {
+            "id": "fc3d6f02-90e8-413e-b532-9b23c0d61efe",
+            "name": "New Project",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/New Project",
+            "fileNameFormat": {
+              "enabled": false,
+              "format": ""
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Projects"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Course Gen",
+      "id": "7c23b0ec-17ab-48ee-8222-09df850a4c64",
+      "commands": [
+        {
+          "name": "Course Gen",
+          "type": "NestedChoice",
+          "id": "e58ec0a7-84bf-4f9e-9ac6-e65090601f56",
+          "choice": {
+            "id": "3e2bb94a-398d-4ed1-b155-7cd328941d8b",
+            "name": "Course Gen",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/New Course",
+            "fileNameFormat": {
+              "enabled": false,
+              "format": ""
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Research/Courses"
+              ],
+              "chooseWhenCreatingNote": true,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Website Gen",
+      "id": "3c90f0a5-90cd-4c7d-a258-d86d318da074",
+      "commands": [
+        {
+          "name": "Website Gen",
+          "type": "NestedChoice",
+          "id": "d9ee8eb2-1576-4118-8e62-79bc2502c933",
+          "choice": {
+            "id": "a46deeef-9959-490a-9d4b-25eb6004aa2c",
+            "name": "Website Gen",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/New Website",
+            "fileNameFormat": {
+              "enabled": false,
+              "format": ""
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Research/Websites"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Book Gen",
+      "id": "03f8bf0a-f024-4604-89cb-1fbc11f36d6c",
+      "commands": [
+        {
+          "name": "Book Gen",
+          "type": "NestedChoice",
+          "id": "c6e4ef78-2529-4f05-84da-3edaa3dfe295",
+          "choice": {
+            "id": "3ea51986-186b-4c29-8b68-5283d6f20979",
+            "name": "Book Gen",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/New Book",
+            "fileNameFormat": {
+              "enabled": false,
+              "format": ""
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                ""
+              ],
+              "chooseWhenCreatingNote": true,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Monthly Gen",
+      "id": "655aabbf-0be9-4d75-9d20-d146ea57e32e",
+      "commands": [
+        {
+          "name": "Periodic Notes: Open monthly note",
+          "type": "Obsidian",
+          "id": "2a69bbc7-4bb9-4dee-b8f8-b5f267b6d520",
+          "commandId": "periodic-notes:open-monthly-note"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Quarterly Gen",
+      "id": "4b1c1a98-6bda-4a46-8c35-43d0c25af77e",
+      "commands": [
+        {
+          "name": "Periodic Notes: Open quarterly note",
+          "type": "Obsidian",
+          "id": "1e06740d-c042-48a5-9ad3-e71d134fa2a6",
+          "commandId": "periodic-notes:open-quarterly-note"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Yearly Gen",
+      "id": "e3e73b11-15bf-41e0-963c-d0cc1269202c",
+      "commands": [
+        {
+          "name": "Periodic Notes: Open yearly note",
+          "type": "Obsidian",
+          "id": "155add0c-ad17-4e5f-94db-9f5a7eecae82",
+          "commandId": "periodic-notes:open-yearly-note"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Daily Gen",
+      "id": "ab855de4-5490-4b39-8085-15eb6a84a2c5",
+      "commands": [
+        {
+          "name": "Periodic Notes: Open daily note",
+          "type": "Obsidian",
+          "id": "b0702195-1eae-4d08-b92a-4a67585d4e61",
+          "commandId": "periodic-notes:open-daily-note"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "61c96559-e576-4390-95c1-73d9a8d5574d",
+          "time": 1000
+        },
+        {
+          "name": "Day Planner: Unlink today's Day Planner from its note",
+          "type": "Obsidian",
+          "id": "bb2b66f4-3ac0-4090-9816-98dcab1439c9",
+          "commandId": "obsidian-day-planner:app:unlink-day-planner-from-note"
+        },
+        {
+          "name": "Day Planner: Link today's Day Planner to the current note",
+          "type": "Obsidian",
+          "id": "5b96dbcf-4ac3-4d4c-8921-f5cfd9b60f1d",
+          "commandId": "obsidian-day-planner:app:link-day-planner-to-note"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Weekly Gen",
+      "id": "b80a8648-c7bd-4b78-9e63-8e86de679752",
+      "commands": [
+        {
+          "name": "Periodic Notes: Open weekly note",
+          "type": "Obsidian",
+          "id": "1e520d02-6d3b-4287-9526-8e792393ef0b",
+          "commandId": "periodic-notes:open-weekly-note"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Daily Habit Automation",
+      "id": "f8ab00cd-b648-406d-97d8-b4fb8c5f3454",
+      "commands": [
+        {
+          "name": "Text Snippets: Run snippet replacement",
+          "type": "Obsidian",
+          "id": "cc2cf6ab-14fe-4432-84f9-eb25ae42872b",
+          "commandId": "text-snippets-obsidian:text-snippets"
+        },
+        {
+          "name": "Shell commands: Execute: Habit Automation",
+          "type": "Obsidian",
+          "id": "013a78bf-8e02-4a9a-a3a9-425d4b747def",
+          "commandId": "obsidian-shellcommands:shell-command-0"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Ctrl + X Automation",
+      "id": "4907f125-0c71-4727-b1c9-19d7fc3afacb",
+      "commands": [
+        {
+          "name": "Cut",
+          "type": "EditorCommand",
+          "id": "917b2b97-d95f-491e-9a90-f4e157bbcd8f",
+          "editorCommandType": "Cut"
+        },
+        {
+          "name": "Shell commands: Execute: Cut Automation",
+          "type": "Obsidian",
+          "id": "f12a4c98-f89b-4050-b0e5-8f565d26e1b3",
+          "commandId": "obsidian-shellcommands:shell-command-1"
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line"
+}

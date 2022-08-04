@@ -1,0 +1,11 @@
+{
+  "minimal-style@@text-bold@@dark": "#DADE12",
+  "minimal-style@@text-italic@@dark": "#25CBEB",
+  "minimal-advanced@@cursor": "pointer",
+  "minimal-style@@title-alignment": "title-align-center",
+  "minimal-style@@show-grabber": false,
+  "minimal-style@@accent@@dark": "#764BBE",
+  "minimal-style@@ax3@@dark": "#6437AE",
+  "minimal-style@@checkbox-shape": "checkbox-circle",
+  "minimal-style@@minimal-strike-lists": true
+}

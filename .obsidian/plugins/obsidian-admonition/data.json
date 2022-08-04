@@ -1,0 +1,37 @@
+{
+  "userAdmonitions": {
+    "Remember": {
+      "type": "Remember",
+      "color": "132, 194, 0",
+      "icon": {
+        "name": "brain",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Remember",
+      "injectColor": true,
+      "noTitle": false
+    }
+  },
+  "syntaxHighlight": false,
+  "copyButton": false,
+  "version": "9.0.3",
+  "autoCollapse": true,
+  "defaultCollapseType": "open",
+  "injectColor": true,
+  "parseTitles": true,
+  "dropShadow": true,
+  "hideEmpty": true,
+  "open": {
+    "admonitions": true,
+    "icons": false,
+    "other": true,
+    "advanced": true
+  },
+  "icons": [],
+  "useFontAwesome": true,
+  "rpgDownloadedOnce": false,
+  "msDocConverted": false,
+  "useSnippet": false,
+  "snippetPath": "custom-admonitions.6144ae"
+}

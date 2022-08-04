@@ -1,0 +1,15 @@
+{
+  "translucency": false,
+  "cssTheme": "Minimal",
+  "baseFontSize": 29,
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "important",
+    "auto-fade-controls",
+    "bigger-popup-previews",
+    "block-cursor",
+    "subtler-arrows",
+    "tag-pills",
+    "heatmap_custom_styling"
+  ]
+}

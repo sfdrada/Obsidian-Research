@@ -1,0 +1,455 @@
+{
+  "appData": {},
+  "state": {
+    "Templates 📂/Journals/Daily Journal.md": {
+      "0": {
+        "data": {
+          "headers": [
+            {
+              "id": "a05d8b10-4ec1-43f2-945d-90faa2a658f6",
+              "initialIndex": 0,
+              "content": "Habit",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            },
+            {
+              "id": "e6cd8b52-69a4-40f0-9abf-b34687ecb0ee",
+              "initialIndex": 1,
+              "content": "Status",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            }
+          ],
+          "rows": [
+            {
+              "id": "cb0a9f17-b839-4c70-9fdc-64a1f15e90a3",
+              "initialIndex": 0,
+              "creationTime": 1657367414889
+            },
+            {
+              "id": "b855c70b-99b7-4e05-803a-62b761337596",
+              "initialIndex": 1,
+              "creationTime": 1657367429999
+            }
+          ],
+          "cells": [
+            {
+              "id": "ccdec2b4-4569-4c45-9b87-e2326d8d5288",
+              "rowId": "cb0a9f17-b839-4c70-9fdc-64a1f15e90a3",
+              "headerId": "a05d8b10-4ec1-43f2-945d-90faa2a658f6",
+              "type": "text",
+              "text": "Dreams::"
+            },
+            {
+              "id": "435fea00-bb10-470a-8be0-90df55bca347",
+              "rowId": "cb0a9f17-b839-4c70-9fdc-64a1f15e90a3",
+              "headerId": "e6cd8b52-69a4-40f0-9abf-b34687ecb0ee",
+              "type": "text",
+              "text": ""
+            },
+            {
+              "id": "4e49c2e3-9d03-44bd-9456-cd47e2248b06",
+              "rowId": "b855c70b-99b7-4e05-803a-62b761337596",
+              "headerId": "a05d8b10-4ec1-43f2-945d-90faa2a658f6",
+              "type": "text",
+              "text": ""
+            },
+            {
+              "id": "45aba499-19ac-4d64-9359-4a0b3e79dbb3",
+              "rowId": "b855c70b-99b7-4e05-803a-62b761337596",
+              "headerId": "e6cd8b52-69a4-40f0-9abf-b34687ecb0ee",
+              "type": "text",
+              "text": ""
+            }
+          ],
+          "tags": []
+        },
+        "viewType": "live-preview",
+        "shouldUpdate": true
+      }
+    },
+    "Templates 📂/Journals/Weekly Journal.md": {
+      "0": {
+        "data": {
+          "headers": [
+            {
+              "id": "45969357-0895-487c-abc7-701f9e6859cd",
+              "initialIndex": 0,
+              "content": "Name",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            },
+            {
+              "id": "68b991d3-31a2-48d3-b0f3-5e638ac1cde3",
+              "initialIndex": 1,
+              "content": "Thos",
+              "sortName": "default",
+              "width": "100px",
+              "type": "checkbox"
+            }
+          ],
+          "rows": [
+            {
+              "id": "1f276857-50d4-4f23-9ea6-350498c11132",
+              "initialIndex": 0,
+              "creationTime": 1657417596968
+            },
+            {
+              "id": "0b8b5f96-0c4f-479d-8833-50b38c07cb0b",
+              "initialIndex": 1,
+              "creationTime": 1657441623675
+            },
+            {
+              "id": "820b12f4-00e9-4572-a6bd-abe1d58f976c",
+              "initialIndex": 2,
+              "creationTime": 1657441625787
+            },
+            {
+              "id": "41cb77cc-dd42-45dd-a0d9-7a8a231d989d",
+              "initialIndex": 3,
+              "creationTime": 1657441628920
+            }
+          ],
+          "cells": [
+            {
+              "id": "8078bba0-22ab-49b2-8d6e-c79e206c2ab9",
+              "rowId": "1f276857-50d4-4f23-9ea6-350498c11132",
+              "headerId": "45969357-0895-487c-abc7-701f9e6859cd",
+              "type": "text",
+              "text": "Test"
+            },
+            {
+              "id": "35166cf9-7043-4994-9157-1998f10733cb",
+              "rowId": "1f276857-50d4-4f23-9ea6-350498c11132",
+              "headerId": "68b991d3-31a2-48d3-b0f3-5e638ac1cde3",
+              "type": "checkbox",
+              "isChecked": false
+            },
+            {
+              "id": "0e235424-f228-440d-b843-6bf7867b6201",
+              "rowId": "0b8b5f96-0c4f-479d-8833-50b38c07cb0b",
+              "headerId": "45969357-0895-487c-abc7-701f9e6859cd",
+              "type": "text",
+              "text": "yad"
+            },
+            {
+              "id": "ee1eaca3-6204-4270-8a9e-0df6488af646",
+              "rowId": "0b8b5f96-0c4f-479d-8833-50b38c07cb0b",
+              "headerId": "68b991d3-31a2-48d3-b0f3-5e638ac1cde3",
+              "type": "checkbox",
+              "isChecked": false
+            },
+            {
+              "id": "82a2d399-26d8-4626-b4a8-5da8f625ea6e",
+              "rowId": "820b12f4-00e9-4572-a6bd-abe1d58f976c",
+              "headerId": "45969357-0895-487c-abc7-701f9e6859cd",
+              "type": "text",
+              "text": "agagsg"
+            },
+            {
+              "id": "b01e242f-ce8d-4b41-a0e7-2b2c3a7d12fc",
+              "rowId": "820b12f4-00e9-4572-a6bd-abe1d58f976c",
+              "headerId": "68b991d3-31a2-48d3-b0f3-5e638ac1cde3",
+              "type": "checkbox",
+              "isChecked": true
+            },
+            {
+              "id": "70974141-dcb8-453f-ade1-85a40d8625db",
+              "rowId": "41cb77cc-dd42-45dd-a0d9-7a8a231d989d",
+              "headerId": "45969357-0895-487c-abc7-701f9e6859cd",
+              "type": "text",
+              "text": ""
+            },
+            {
+              "id": "199182a9-b8a8-49e2-9327-c77497c1fa78",
+              "rowId": "41cb77cc-dd42-45dd-a0d9-7a8a231d989d",
+              "headerId": "68b991d3-31a2-48d3-b0f3-5e638ac1cde3",
+              "type": "checkbox",
+              "isChecked": false
+            }
+          ],
+          "tags": []
+        },
+        "viewType": "live-preview",
+        "shouldUpdate": true
+      }
+    },
+    "Journals 📜/2 - Weekly/2022-W28.md": {
+      "0": {
+        "data": {
+          "headers": [
+            {
+              "id": "2889c977-13e8-4318-9c7c-a6420eb312b3",
+              "initialIndex": 0,
+              "content": "f Column",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            },
+            {
+              "id": "ce33bed2-8bde-4e61-8ca6-6600cc23c8ac",
+              "initialIndex": 1,
+              "content": "",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            }
+          ],
+          "rows": [
+            {
+              "id": "6cb0f8e5-11f5-4261-995c-2f9ea664694d",
+              "initialIndex": 0,
+              "creationTime": 1657420245815
+            }
+          ],
+          "cells": [
+            {
+              "id": "bc5b9b13-270e-4767-b21b-b95cc0ecc807",
+              "rowId": "6cb0f8e5-11f5-4261-995c-2f9ea664694d",
+              "headerId": "2889c977-13e8-4318-9c7c-a6420eb312b3",
+              "type": "text",
+              "text": "----fsa------"
+            },
+            {
+              "id": "4cb2ea17-890b-4a03-a499-98f6e2caa230",
+              "rowId": "6cb0f8e5-11f5-4261-995c-2f9ea664694d",
+              "headerId": "ce33bed2-8bde-4e61-8ca6-6600cc23c8ac",
+              "type": "text",
+              "text": ""
+            }
+          ],
+          "tags": []
+        },
+        "shouldUpdate": false,
+        "viewType": "live-preview"
+      }
+    },
+    "Projects 🎯/Current/Job Search 💼.md": {
+      "0": {
+        "data": {
+          "headers": [
+            {
+              "id": "4a11a8f8-1d06-4698-862a-76d4991a845b",
+              "initialIndex": 0,
+              "content": "Name",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            },
+            {
+              "id": "e6395ce7-e72d-43ac-815e-d08aa9cff641",
+              "initialIndex": 1,
+              "content": "Link",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            },
+            {
+              "id": "0d64db65-730b-4603-bf02-7fceed23ef19",
+              "initialIndex": 2,
+              "content": "Requirements",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            },
+            {
+              "id": "a07127eb-3955-4c3b-a52a-86fa732dab23",
+              "initialIndex": 3,
+              "content": "Pay",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            },
+            {
+              "id": "9d399402-4f10-4382-ad2a-838c1b7200b7",
+              "initialIndex": 4,
+              "content": "Remote",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            },
+            {
+              "id": "0e585083-0baf-43eb-8e57-27e044c653e3",
+              "initialIndex": 5,
+              "content": "FT/PT",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            }
+          ],
+          "rows": [
+            {
+              "id": "e8fb64a0-8ddd-48bf-b7dc-5309d2e5c666",
+              "initialIndex": 0,
+              "creationTime": 1657423821083
+            }
+          ],
+          "cells": [
+            {
+              "id": "7230bb5a-e97b-40b7-9902-6c47b24cc118",
+              "rowId": "e8fb64a0-8ddd-48bf-b7dc-5309d2e5c666",
+              "headerId": "4a11a8f8-1d06-4698-862a-76d4991a845b",
+              "type": "text",
+              "text": ""
+            },
+            {
+              "id": "b81e1170-d013-4249-b847-c3158f78179e",
+              "rowId": "e8fb64a0-8ddd-48bf-b7dc-5309d2e5c666",
+              "headerId": "e6395ce7-e72d-43ac-815e-d08aa9cff641",
+              "type": "text",
+              "text": ""
+            },
+            {
+              "id": "9d186053-69d0-4ade-a1d8-000db2b45e4b",
+              "rowId": "e8fb64a0-8ddd-48bf-b7dc-5309d2e5c666",
+              "headerId": "0d64db65-730b-4603-bf02-7fceed23ef19",
+              "type": "text",
+              "text": ""
+            },
+            {
+              "id": "86a780d0-cd5a-452f-ade8-db4eb7d5abfb",
+              "rowId": "e8fb64a0-8ddd-48bf-b7dc-5309d2e5c666",
+              "headerId": "a07127eb-3955-4c3b-a52a-86fa732dab23",
+              "type": "text",
+              "text": ""
+            },
+            {
+              "id": "731d3ac0-f806-4bb0-be56-9ffd0f56e374",
+              "rowId": "e8fb64a0-8ddd-48bf-b7dc-5309d2e5c666",
+              "headerId": "9d399402-4f10-4382-ad2a-838c1b7200b7",
+              "type": "text",
+              "text": ""
+            },
+            {
+              "id": "65561047-c0a9-4f3a-8c54-bce7885251b7",
+              "rowId": "e8fb64a0-8ddd-48bf-b7dc-5309d2e5c666",
+              "headerId": "0e585083-0baf-43eb-8e57-27e044c653e3",
+              "type": "text",
+              "text": ""
+            }
+          ],
+          "tags": []
+        },
+        "shouldUpdate": false,
+        "viewType": "live-preview"
+      }
+    },
+    "Master Mind Hub 🌌/Sketch Catch 💭.md": {
+      "0": {
+        "data": {
+          "headers": [
+            {
+              "id": "d1dbe569-5dff-40a2-9402-96dda483f52f",
+              "initialIndex": 0,
+              "content": "Habit",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            },
+            {
+              "id": "1f750568-342f-4a78-8ed8-10b3d9891bea",
+              "initialIndex": 1,
+              "content": "Status",
+              "sortName": "default",
+              "width": "100px",
+              "type": "checkbox"
+            }
+          ],
+          "rows": [
+            {
+              "id": "9f8b50e6-ab6d-4e3f-98ee-00331b3f0339",
+              "initialIndex": 0,
+              "creationTime": 1657374980072
+            },
+            {
+              "id": "323f2b33-d742-43e6-b58e-201869eb940c",
+              "initialIndex": 1,
+              "creationTime": 1657374986021
+            },
+            {
+              "id": "e26f1949-48dd-4c06-b4cc-f6f6899c4a99",
+              "initialIndex": 2,
+              "creationTime": 1657374989805
+            }
+          ],
+          "cells": [
+            {
+              "id": "f66a0891-a181-4666-b021-09af67b9cdd4",
+              "rowId": "9f8b50e6-ab6d-4e3f-98ee-00331b3f0339",
+              "headerId": "d1dbe569-5dff-40a2-9402-96dda483f52f",
+              "type": "text",
+              "text": "Walking"
+            },
+            {
+              "id": "e2d62941-f223-4786-bf35-bfb5086269b3",
+              "rowId": "9f8b50e6-ab6d-4e3f-98ee-00331b3f0339",
+              "headerId": "1f750568-342f-4a78-8ed8-10b3d9891bea",
+              "type": "checkbox",
+              "isChecked": true
+            },
+            {
+              "id": "e784e1af-c90b-46da-945e-04cacab7ba95",
+              "rowId": "323f2b33-d742-43e6-b58e-201869eb940c",
+              "headerId": "d1dbe569-5dff-40a2-9402-96dda483f52f",
+              "type": "text",
+              "text": "Talking"
+            },
+            {
+              "id": "3e53395f-939f-412b-832c-80404aaad363",
+              "rowId": "323f2b33-d742-43e6-b58e-201869eb940c",
+              "headerId": "1f750568-342f-4a78-8ed8-10b3d9891bea",
+              "type": "checkbox",
+              "isChecked": true
+            },
+            {
+              "id": "f1ca98ae-5311-4a85-881f-51d18b24debd",
+              "rowId": "e26f1949-48dd-4c06-b4cc-f6f6899c4a99",
+              "headerId": "d1dbe569-5dff-40a2-9402-96dda483f52f",
+              "type": "text",
+              "text": "Being Cool"
+            },
+            {
+              "id": "73b8a1cb-b21c-4527-bc68-46c3b7c115f5",
+              "rowId": "e26f1949-48dd-4c06-b4cc-f6f6899c4a99",
+              "headerId": "1f750568-342f-4a78-8ed8-10b3d9891bea",
+              "type": "checkbox",
+              "isChecked": true
+            }
+          ],
+          "tags": []
+        },
+        "viewType": "live-preview",
+        "shouldUpdate": false
+      }
+    },
+    "Master Mind Hub 🌌/Genius Genesis 🪐.md": {
+      "0": {
+        "data": {
+          "headers": [
+            {
+              "id": "d2b31000-a821-4f95-89d5-bf64aaf80407",
+              "initialIndex": 0,
+              "content": "Social Skills",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            }
+          ],
+          "rows": [],
+          "cells": [],
+          "tags": []
+        },
+        "shouldUpdate": false,
+        "viewType": "reading"
+      }
+    }
+  },
+  "focusedElement": {
+    "id": "-1",
+    "type": "unfocused"
+  },
+  "excludedFiles": []
+}

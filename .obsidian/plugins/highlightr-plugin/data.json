@@ -1,0 +1,26 @@
+{
+  "highlighterStyle": "rounded",
+  "highlighterMethods": "inline-styles",
+  "highlighters": {
+    "P1": "#FF5582A6",
+    "P2": "#FFB86CA6",
+    "P3": "#FFF3A3A6",
+    "P4": "#BBFABBA6",
+    "P5": "#ABF7F7A6",
+    "P6": "#ADCCFFA6",
+    "P7": "#D2B3FFA6",
+    "P8": "#FFB8EBA6",
+    "P9": "#CACFD9A6"
+  },
+  "highlighterOrder": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "P8",
+    "P9"
+  ]
+}

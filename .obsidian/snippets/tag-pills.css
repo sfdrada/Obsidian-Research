@@ -1,0 +1,34 @@
+
+
+.tag {
+  border: none;
+  color: white;
+  font-size: 11px;
+  display: inline-block;
+  padding: 1px 8px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 0px;    
+   cursor: pointer;
+  display: inline-block;
+  border-radius: 14px;
+}
+.tag:hover {
+color: white;
+/*background-color: var(--text-accent-hover); */
+}
+.tag[href^="#Research"] {
+  /*background-*/color: blue;
+}
+.tag[href^="#Objective/Begin"] {
+  /*background-*/color: red;
+}
+.tag[href^="#Objective/Deadlock"] {
+  /*background-*/color: orange;
+}
+.tag[href^="#Objective/Progressing"] {
+  /*background-*/color: yellow;
+}
+.tag[href^="#Objective/Complete"] {
+  /*background-*/color: green;
+}

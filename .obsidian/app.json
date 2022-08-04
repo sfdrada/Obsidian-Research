@@ -1,0 +1,19 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "spellcheck": true,
+  "spellcheckLanguages": [
+    "en-US",
+    "en-CA"
+  ],
+  "attachmentFolderPath": "Attatchments",
+  "showLineNumber": true,
+  "showFrontmatter": true,
+  "showUnsupportedFiles": true,
+  "newFileLocation": "current",
+  "foldIndent": true,
+  "showIndentGuide": true,
+  "foldHeading": true
+}

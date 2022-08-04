@@ -1,0 +1,121 @@
+{
+  "collapse-filter": false,
+  "search": "-path:\"Templates 📂\", -path:\"006 Other\"",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:Journals",
+      "color": {
+        "a": 1,
+        "rgb": 5430752
+      }
+    },
+    {
+      "query": "tag:#File/HubNote",
+      "color": {
+        "a": 1,
+        "rgb": 2502305
+      }
+    },
+    {
+      "query": "tag:#File/Profile",
+      "color": {
+        "a": 1,
+        "rgb": 15903711
+      }
+    },
+    {
+      "query": "tag:#File/Master_Mind",
+      "color": {
+        "a": 1,
+        "rgb": 5312883
+      }
+    },
+    {
+      "query": "tag:#Objective/Begin",
+      "color": {
+        "a": 1,
+        "rgb": 15219515
+      }
+    },
+    {
+      "query": "tag:#Objective/Deadlock",
+      "color": {
+        "a": 1,
+        "rgb": 15774509
+      }
+    },
+    {
+      "query": "tag:#Objective/Progressing",
+      "color": {
+        "a": 1,
+        "rgb": 14605906
+      }
+    },
+    {
+      "query": "tag:#Objective/Complete",
+      "color": {
+        "a": 1,
+        "rgb": 5039661
+      }
+    },
+    {
+      "query": "tag:#File/Flashcards",
+      "color": {
+        "a": 1,
+        "rgb": 1480789
+      }
+    },
+    {
+      "query": "tag:#File/Status/Empty",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
+    },
+    {
+      "query": "tag:#File/Status/Reorganize",
+      "color": {
+        "a": 1,
+        "rgb": 15219515
+      }
+    },
+    {
+      "query": "tag:#File/Status/Recategorize",
+      "color": {
+        "a": 1,
+        "rgb": 15774509
+      }
+    },
+    {
+      "query": "tag:#File/Status/Summarize",
+      "color": {
+        "a": 1,
+        "rgb": 14605906
+      }
+    },
+    {
+      "query": "tag:#File/Status/Structuralize",
+      "color": {
+        "a": 1,
+        "rgb": 5039661
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -1.6,
+  "nodeSizeMultiplier": 0.949521072796935,
+  "lineSizeMultiplier": 1.60472440944882,
+  "collapse-forces": false,
+  "centerStrength": 0.312260536398467,
+  "repelStrength": 11.0676883780332,
+  "linkStrength": 0.643358876117497,
+  "linkDistance": 421,
+  "scale": 0.08317427835927893,
+  "close": true
+}

@@ -1,0 +1,1086 @@
+{
+  "addToDefaultIfMissing": true,
+  "calendars": [
+    {
+      "name": "Personal Calendar",
+      "description": "Personal information & connections.",
+      "autoParse": false,
+      "path": "/",
+      "supportTimelines": false,
+      "syncTimelines": false,
+      "timelineTag": "#timeline",
+      "static": {
+        "displayDayNumber": true,
+        "incrementDay": true,
+        "displayMoons": true,
+        "firstWeekDay": 1,
+        "overflow": true,
+        "weekdays": [
+          {
+            "type": "day",
+            "name": "Sunday",
+            "id": "ID_19ea684b4a08"
+          },
+          {
+            "type": "day",
+            "name": "Monday",
+            "id": "ID_2928b90ab949"
+          },
+          {
+            "type": "day",
+            "name": "Tuesday",
+            "id": "ID_0ad9a8f9e95b"
+          },
+          {
+            "type": "day",
+            "name": "Wednesday",
+            "id": "ID_195a4b290bc9"
+          },
+          {
+            "type": "day",
+            "name": "Thursday",
+            "id": "ID_abe8c89b0999"
+          },
+          {
+            "type": "day",
+            "name": "Friday",
+            "id": "ID_2b5b8a79fa4a"
+          },
+          {
+            "type": "day",
+            "name": "Saturday",
+            "id": "ID_1a78cb79c8cb"
+          }
+        ],
+        "months": [
+          {
+            "name": "January",
+            "type": "month",
+            "length": 31,
+            "id": "ID_e9997a780b3a"
+          },
+          {
+            "name": "February",
+            "type": "month",
+            "length": 28,
+            "id": "ID_b8c9ebeb0b89"
+          },
+          {
+            "name": "March",
+            "type": "month",
+            "length": 31,
+            "id": "ID_b83bda2b9be8"
+          },
+          {
+            "name": "April",
+            "type": "month",
+            "length": 30,
+            "id": "ID_29baea7b28ab"
+          },
+          {
+            "name": "May",
+            "type": "month",
+            "length": 31,
+            "id": "ID_6a3899fad909"
+          },
+          {
+            "name": "June",
+            "type": "month",
+            "length": 30,
+            "id": "ID_384aeb1afa8a"
+          },
+          {
+            "name": "July",
+            "type": "month",
+            "length": 31,
+            "id": "ID_48b8cba87b8a"
+          },
+          {
+            "name": "August",
+            "type": "month",
+            "length": 31,
+            "id": "ID_fa0b1a6bab8a"
+          },
+          {
+            "name": "September",
+            "type": "month",
+            "length": 30,
+            "id": "ID_da880b8af849"
+          },
+          {
+            "name": "October",
+            "type": "month",
+            "length": 31,
+            "id": "ID_babba8186968"
+          },
+          {
+            "name": "November",
+            "type": "month",
+            "length": 30,
+            "id": "ID_da582bfaf9b9"
+          },
+          {
+            "name": "December",
+            "type": "month",
+            "length": 31,
+            "id": "ID_ba1bab4a3a28"
+          }
+        ],
+        "moons": [
+          {
+            "name": "Moon",
+            "cycle": 29.530588853,
+            "offset": 9.24953,
+            "faceColor": "#ffffff",
+            "shadowColor": "#000000",
+            "id": "ID_a9ab186b1819"
+          }
+        ],
+        "leapDays": [
+          {
+            "name": "Leap Day",
+            "type": "leapday",
+            "interval": [
+              {
+                "ignore": false,
+                "exclusive": false,
+                "interval": 4
+              },
+              {
+                "ignore": false,
+                "exclusive": true,
+                "interval": 100
+              },
+              {
+                "ignore": false,
+                "exclusive": false,
+                "interval": 400
+              }
+            ],
+            "offset": 0,
+            "timespan": 1,
+            "intercalary": false,
+            "id": "ID_b91ad86a887a"
+          }
+        ],
+        "eras": [
+          {
+            "name": "Before Christ",
+            "description": "",
+            "format": "Year {{abs_year}} - {{era_name}}",
+            "start": {
+              "year": -1,
+              "month": 0,
+              "day": 31
+            }
+          },
+          {
+            "name": "Anno Domini",
+            "description": "",
+            "format": "Year {{year}} - {{era_name}}",
+            "start": {
+              "year": 1,
+              "month": 0,
+              "day": 1
+            }
+          }
+        ],
+        "offset": 0
+      },
+      "current": {
+        "day": 4,
+        "month": 7,
+        "year": 2022
+      },
+      "events": [
+        {
+          "name": "Summer Solstice",
+          "description": "At the summer solstice, the Sun travels the longest path through the sky, and that day therefore has the most daylight.",
+          "id": "824599",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "category": "natural-events"
+        },
+        {
+          "name": "Winter Solstice",
+          "description": "The winter solstice marks the shortest day and longest night of the year, when the sun is at its lowest arc in the sky.",
+          "id": "824600",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "category": "natural-events"
+        },
+        {
+          "name": "Spring Equinox",
+          "description": "The equinox marks the day and the night is equally as long.",
+          "id": "824601",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "category": "natural-events"
+        },
+        {
+          "name": "Autumn Equinox",
+          "description": "The equinox marks the day and the night is equally as long.",
+          "id": "824602",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "category": "natural-events"
+        },
+        {
+          "name": "Paschal Full Moon",
+          "description": "The first full moon after march 21st, which is considered the fixed date for the spring equinox.",
+          "id": "824604",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "category": "christian-holidays"
+        },
+        {
+          "name": "Easter",
+          "description": "Easter is considered the most important feast for Christians, celebrating the resurrection of Christ. It is classed as a moveable feast occurring on the first full moon after the spring equinox, which is considered to be fixed at March 21st for the sake of computing the date.",
+          "id": "824605",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "category": "natural-events"
+        },
+        {
+          "name": "Easter Monday",
+          "description": "The Monday following the Easter Sunday is often considered part of the Easter Celebration and is a day off in many countries with a strong Christian tradition.",
+          "id": "824606",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "category": "ID_a8783848787b"
+        },
+        {
+          "name": "Good Friday",
+          "description": "Good Friday is the Friday preceding Easter. It comemmorates the crucifixion of Christ according to the Bible.",
+          "id": "824607",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "category": "ID_a8783848787b"
+        },
+        {
+          "name": "Pentecost",
+          "description": "Celebrated exactly 50 days after Easter, Pentecost is the celebration of the Holy Spirit appearing before the Apostles as described in the Bible.",
+          "id": "824608",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "category": "ID_a8783848787b"
+        },
+        {
+          "name": "New Year's Day",
+          "description": "New Year's Day marks the start of a new year on the Gregorian Calendar. It starts when the clock strikes midnight and is often celebrated with fireworks, champagne and kissing.",
+          "id": "824609",
+          "note": null,
+          "date": {
+            "day": 1,
+            "year": null,
+            "month": 0
+          },
+          "category": "natural-events"
+        },
+        {
+          "name": "Valentine's Day",
+          "description": "Valentine's day is a celebration of love and romance that is popular across the world. Many more cynically minded people mostly consider it an attempt to monetize the expectation of romantic gestures on the holiday through gift cards, flowers, chocolate and dates.",
+          "id": "824610",
+          "note": null,
+          "date": {
+            "day": 14,
+            "year": null,
+            "month": 1
+          },
+          "category": "natural-events"
+        },
+        {
+          "name": "Halloween",
+          "description": "Halloween is holiday popular in the US, Canada and Ireland that has gradually been adopted by more and more countries. It is often celebrated by people dressing up, usually as something scary. Children will often go from door to door shouting \"trick or treat\" in the hopes of receiving candy, while adults tend to go to parties.",
+          "id": "824611",
+          "note": null,
+          "date": {
+            "day": 31,
+            "year": null,
+            "month": 9
+          },
+          "category": "natural-events"
+        },
+        {
+          "name": "Christmas",
+          "description": "Christmas is a Christian holiday celebrating the birth of Christ. Due to a combination of marketability and long lasting traditions it is popular even among many non-Christians, especially in countries that have a strong Christian tradition.",
+          "id": "824603",
+          "note": null,
+          "date": {
+            "day": 25,
+            "year": null,
+            "month": 11
+          },
+          "category": "natural-events"
+        },
+        {
+          "name": "Introduction of the Gregorian Calendar",
+          "description": "On this day in 1582 the Gregorian calendar was officially introduced, following Thursday October 4th on the Julian Calendar",
+          "id": "824614",
+          "note": null,
+          "date": {
+            "day": 15,
+            "year": 1582,
+            "month": 9
+          },
+          "category": "ID_a8783848787b"
+        },
+        {
+          "name": "Work on the first version of this calendar started.",
+          "description": "Aecius started work on the first version Gregorian Calendar for Fantasy Calendar on this day.",
+          "id": "824612",
+          "note": null,
+          "date": {
+            "day": 23,
+            "year": 2019,
+            "month": 5
+          },
+          "category": "ID_a8783848787b"
+        },
+        {
+          "name": "Work on this version of the Gregorian Calendar started.",
+          "description": "On this day, Aecius started to rework the Gregorian Calendar from scratch to make it work with the updates Wasp and Alex implemented since the summer of 2019.",
+          "id": "824613",
+          "note": null,
+          "date": {
+            "day": 21,
+            "year": 2020,
+            "month": 0
+          },
+          "category": "ID_a8783848787b"
+        },
+        {
+          "name": "Job Zoom Interview",
+          "description": "11:00 AM Job meeting for teaching position in work email.",
+          "date": {
+            "day": 23,
+            "month": 4,
+            "year": 2022
+          },
+          "id": "ID_a80a5a1869a9",
+          "note": "Projects/Job Search 💼",
+          "category": null,
+          "formulas": [
+            {
+              "type": "interval",
+              "number": 1,
+              "timespan": "days"
+            }
+          ],
+          "end": {
+            "year": 2022,
+            "month": 4,
+            "day": 23
+          }
+        },
+        {
+          "id": "ID_58aa394b0a89",
+          "name": "2022-05-04",
+          "note": "Journals 📜/1 - Daily/2022-05-04.md",
+          "date": {
+            "year": 2022,
+            "month": 4,
+            "day": 4
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_a9494b7b69fb",
+          "name": "2022-05-05",
+          "note": "Journals 📜/1 - Daily/2022-05-05.md",
+          "date": {
+            "year": 2022,
+            "month": 4,
+            "day": 5
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_9beb99aada2b",
+          "name": "2022-05-06",
+          "note": "Journals 📜/1 - Daily/2022-05-06.md",
+          "date": {
+            "year": 2022,
+            "month": 4,
+            "day": 6
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_7aab299b49c8",
+          "name": "2022-05-09",
+          "note": "Journals 📜/1 - Daily/2022-05-09.md",
+          "date": {
+            "year": 2022,
+            "month": 4,
+            "day": 9
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_da988bda3b9a",
+          "name": "2022-05-10",
+          "note": "Journals 📜/1 - Daily/2022-05-10.md",
+          "date": {
+            "year": 2022,
+            "month": 4,
+            "day": 10
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_a91ac8eab9d8",
+          "name": "2022-05-11",
+          "note": "Journals 📜/1 - Daily/2022-05-11.md",
+          "date": {
+            "year": 2022,
+            "month": 4,
+            "day": 11
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_cb0a1b2aa919",
+          "name": "2022-05-12",
+          "note": "Journals 📜/1 - Daily/2022-05-12.md",
+          "date": {
+            "year": 2022,
+            "month": 4,
+            "day": 12
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_2aaa984bfa28",
+          "name": "2022-05-16",
+          "note": "Journals 📜/1 - Daily/2022-05-16.md",
+          "date": {
+            "year": 2022,
+            "month": 4,
+            "day": 16
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_c88b6aaa9b28",
+          "name": "2022-05-17",
+          "note": "Journals 📜/1 - Daily/2022-05-17.md",
+          "date": {
+            "year": 2022,
+            "month": 4,
+            "day": 17
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_68182b29896b",
+          "name": "2022-05-19",
+          "note": "Journals 📜/1 - Daily/2022-05-19.md",
+          "date": {
+            "year": 2022,
+            "month": 4,
+            "day": 19
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_3a48f9988a7b",
+          "name": "2022-05-20",
+          "note": "Journals 📜/1 - Daily/2022-05-20.md",
+          "date": {
+            "year": 2022,
+            "month": 4,
+            "day": 20
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_f8cb884a1a1a",
+          "name": "2022-W21",
+          "note": "Journals 📜/2 - Weekly/2022-W21.md",
+          "date": {
+            "year": 2022,
+            "month": 4,
+            "day": 21
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_297a1a99d889",
+          "name": "2022-05-23",
+          "note": "Journals 📜/1 - Daily/2022-05-23.md",
+          "date": {
+            "year": 2022,
+            "month": 4,
+            "day": 23
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_48bbfa6a29e8",
+          "name": "2022-05-24",
+          "note": "Journals 📜/1 - Daily/2022-05-24.md",
+          "date": {
+            "year": 2022,
+            "month": 4,
+            "day": 24
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_580b9b6a4b79",
+          "name": "2022-05-25",
+          "note": "Journals 📜/1 - Daily/2022-05-25.md",
+          "date": {
+            "year": 2022,
+            "month": 4,
+            "day": 25
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_db88e9ab5be9",
+          "name": "2022-05-26",
+          "note": "Journals 📜/1 - Daily/2022-05-26.md",
+          "date": {
+            "year": 2022,
+            "month": 4,
+            "day": 26
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_7b9b887b1ae9",
+          "name": "2022-05-27",
+          "note": "Journals 📜/1 - Daily/2022-05-27.md",
+          "date": {
+            "year": 2022,
+            "month": 4,
+            "day": 27
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_fbbb291a0a18",
+          "name": "2022-05-30",
+          "note": "Journals 📜/1 - Daily/2022-05-30.md",
+          "date": {
+            "year": 2022,
+            "month": 4,
+            "day": 30
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_6979ba8ada19",
+          "name": "2022-04-25",
+          "note": "Journals 📜/1 - Daily/2022-04-25.md",
+          "date": {
+            "year": 2022,
+            "month": 3,
+            "day": 25
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_d9d899383b18",
+          "name": "2022-04-26",
+          "note": "Journals 📜/1 - Daily/2022-04-26.md",
+          "date": {
+            "year": 2022,
+            "month": 3,
+            "day": 26
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_896a5b6a491b",
+          "name": "2022-04-28",
+          "note": "Journals 📜/1 - Daily/2022-04-28.md",
+          "date": {
+            "year": 2022,
+            "month": 3,
+            "day": 28
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_8b8b291afb2a",
+          "name": "2022-05-03",
+          "note": "Journals 📜/1 - Daily/2022-05-03.md",
+          "date": {
+            "year": 2022,
+            "month": 4,
+            "day": 3
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_ea58e9ebfa18",
+          "name": "2022-05-02",
+          "note": "Journals 📜/1 - Daily/2022-05-02.md",
+          "date": {
+            "year": 2022,
+            "month": 4,
+            "day": 2
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_da28fb3bfa68",
+          "name": "2022-04-29",
+          "note": "Journals 📜/1 - Daily/2022-04-29.md",
+          "date": {
+            "year": 2022,
+            "month": 3,
+            "day": 28
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_4938197b694a",
+          "name": "2022-05-31",
+          "note": "Journals 📜/1 - Daily/2022-05-31.md",
+          "date": {
+            "year": 2022,
+            "month": 4,
+            "day": 31
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_494bc96a8b89",
+          "name": "2022-06-01",
+          "note": "Journals 📜/1 - Daily/2022-06-01.md",
+          "date": {
+            "year": 2022,
+            "month": 5,
+            "day": 1
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_0969eac989f8",
+          "name": "2022-06-02",
+          "note": "Journals 📜/1 - Daily/2022-06-02.md",
+          "date": {
+            "year": 2022,
+            "month": 5,
+            "day": 2
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_0acb3a29fb48",
+          "name": "2022-06-06",
+          "note": "Journals 📜/1 - Daily/2022-06-06.md",
+          "date": {
+            "year": 2022,
+            "month": 5,
+            "day": 6
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_f84b2bbab989",
+          "name": "2022-06-07",
+          "note": "Journals 📜/1 - Daily/2022-06-07.md",
+          "date": {
+            "year": 2022,
+            "month": 5,
+            "day": 7
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_9b7af86b1a4b",
+          "name": "2022-06-08",
+          "note": "Journals 📜/1 - Daily/2022-06-08.md",
+          "date": {
+            "year": 2022,
+            "month": 5,
+            "day": 8
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_58ebdaeb4b6a",
+          "name": "2022-06-09",
+          "note": "Journals 📜/1 - Daily/2022-06-09.md",
+          "date": {
+            "year": 2022,
+            "month": 5,
+            "day": 9
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_996bb90a7928",
+          "name": "2022-06-10",
+          "note": "Journals 📜/1 - Daily/2022-06-10.md",
+          "date": {
+            "year": 2022,
+            "month": 5,
+            "day": 10
+          },
+          "end": null,
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_0a99583bdaea",
+          "name": "2022-06-12",
+          "note": "Journals 📜/1 - Daily/2022-06-12.md",
+          "date": {
+            "year": 2022,
+            "month": 5,
+            "day": 12
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_da4b5b8aca3a",
+          "name": "2022-06-11",
+          "note": "Journals 📜/1 - Daily/2022-06-11.md",
+          "date": {
+            "year": 2022,
+            "month": 5,
+            "day": 12
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_5abb0bea89da",
+          "name": "2022-06-13",
+          "note": "Journals 📜/1 - Daily/2022-06-13.md",
+          "date": {
+            "year": 2022,
+            "month": 5,
+            "day": 13
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_5a2a3a8b8ac8",
+          "name": "2022-06-16",
+          "note": "Journals 📜/1 - Daily/2022-06-16.md",
+          "date": {
+            "year": 2022,
+            "month": 5,
+            "day": 16
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_a9aacbdb68a9",
+          "name": "2022-06-20",
+          "note": "Journals 📜/1 - Daily/2022-06-20.md",
+          "date": {
+            "year": 2022,
+            "month": 5,
+            "day": 20
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_e988dac9ea88",
+          "name": "2022-06-21",
+          "note": "Journals 📜/1 - Daily/2022-06-21.md",
+          "date": {
+            "year": 2022,
+            "month": 5,
+            "day": 21
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_288bb8b87839",
+          "name": "2022-06-22",
+          "note": "Journals 📜/1 - Daily/2022-06-22.md",
+          "date": {
+            "year": 2022,
+            "month": 5,
+            "day": 22
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_e908981a298a",
+          "name": "2022-07-09",
+          "note": "Journals 📜/1 - Daily/2022-07-09.md",
+          "date": {
+            "year": 2022,
+            "month": 6,
+            "day": 9
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_3b78fa4a9b39",
+          "name": "Job Search 💼",
+          "note": "Projects 🎯/Current/Job Search 💼.md",
+          "date": {
+            "year": 2022,
+            "month": 3,
+            "day": 23
+          },
+          "end": {
+            "year": 2022,
+            "month": 3,
+            "day": 23
+          },
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_2a885acbcb4a",
+          "name": "2022-07-10",
+          "note": "Journals 📜/1 - Daily/2022-07-10.md",
+          "date": {
+            "year": 2022,
+            "month": 6,
+            "day": 10
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_facb4bda1838",
+          "name": "2022-07-11",
+          "note": "Journals 📜/1 - Daily/2022-07-11.md",
+          "date": {
+            "year": 2022,
+            "month": 6,
+            "day": 11
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_3ac8e8c9aad8",
+          "name": "2022-07-12",
+          "note": "Journals 📜/1 - Daily/2022-07-12.md",
+          "date": {
+            "year": 2022,
+            "month": 6,
+            "day": 12
+          },
+          "end": null,
+          "category": "historical-events",
+          "description": "",
+          "auto": true
+        }
+      ],
+      "id": "ID_b829dbf909ba",
+      "categories": [
+        {
+          "name": "Holidays",
+          "id": "natural-events",
+          "color": "#2E7D32"
+        },
+        {
+          "name": "Journals",
+          "id": "historical-events",
+          "color": "#51c9e0"
+        },
+        {
+          "name": "Birthdays",
+          "id": "miscellaneous-events",
+          "color": "#cc02cf"
+        },
+        {
+          "id": "ID_a8783848787b",
+          "color": "#b3b3b3",
+          "name": "Not Important"
+        },
+        {
+          "id": "ID_fb9ac82babaa",
+          "color": "#bae543",
+          "name": "Dreams"
+        }
+      ],
+      "date": 1657688402896
+    }
+  ],
+  "configDirectory": null,
+  "currentCalendar": null,
+  "dailyNotes": false,
+  "dateFormat": "YYYY-MM-DD",
+  "defaultCalendar": "ID_b829dbf909ba",
+  "eventPreview": true,
+  "exit": {
+    "saving": false,
+    "event": false,
+    "calendar": false
+  },
+  "eventFrontmatter": true,
+  "parseDates": true,
+  "settingsToggleState": {
+    "calendars": true,
+    "events": true,
+    "advanced": true
+  },
+  "showIntercalary": false,
+  "version": {
+    "major": null,
+    "minor": null,
+    "patch": null
+  },
+  "debug": false
+}
