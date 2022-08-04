@@ -1,0 +1,1 @@
+A game mechanic in games where the player advances in level, which alters the attributes of a player character or opponents so that there is a similar challenge in combat. The player would still gain added benefits with higher levels, such as additional abilities, better equipment with unique properties, and access to higher-level quests or areas.
